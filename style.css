@@ -1,5 +1,8 @@
 	body {
 		font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+    color:white;
+    background-color:black;
 	}
 /*
  & Columns : 16 
@@ -59,6 +62,7 @@
 
 #nav {
     height: 80px;
+    margin: 0 0 20px 0;
 }
 
 #nav ul {
@@ -76,4 +80,28 @@
     font-size:2em;
     color:white;
     font-weight:bold;
+}
+#header {
+    background-color:blue;
+    margin-bottom:10px;
+}
+
+grid_8, grid_4 {
+    height:100px;
+}
+#clubs {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#clubs h3 {
+    height:140px;
+    line-height:140px;
+    text-align:center;
+    font-size:1.5em;
+    background-color:green;
+    font-weight:bold;
+}
+#news {
+    height: 700px;
+    background-color:lime;
 }
